@@ -1,6 +1,6 @@
 Thinking out loud 1: genetic evaluation accuracy assessment
 ================
-F.Pappas
+Fotis Pappas
 2023-12-03
 
 ## The question
