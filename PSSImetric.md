@@ -60,16 +60,16 @@ For variables x, y and percentile p we define the left-side
 percentile-defined set similarity as:
 
 $$PSS_l(X_p,Y_p)=2\frac{|X_p \cap Y_p|}{|X_p|+|Y_p|}=100\frac{|X_p \cap Y_p|}{pN}$$
-where: $X_p={\{x∈X∣x \le Q_{p/100}\}}$
+where: $`X_p={\{x∈X∣x \le Q_{p/100}\}}`$
 
 Similarly, we define the right-side set similarity as:
 $$PSS_r(X_p,Y_p)=100\frac{|X_p \cap Y_p|}{pN}$$ where:
-$X_p={\{x∈X∣x \ge Q_{p/100}\}}$
+$`X_p={\{x∈X∣x \ge Q_{p/100}\}}`$
 
 Finally, we define a Percentile-defined Set Similarity Index for
 variables x and y with percentile step p:
 
-$$PSSI_p(x,y)=\frac{\sum_{i = p/100}^{0.5}{\frac{(1-i)}{2}(PSS_l(X_i,Y_i) + PSS_r(X_{1-i},Y_{1-i}))}}{\sum_{i = p/100}^{0.5}{(1-i)}}$$
+$$PSSI_p(x,y)= \left ({\sum_{i = p/100}^{0.5}{(1-i)}} \right )^{-1} \left ({\sum_{i = p/100}^{0.5}{\frac{(1-i)}{2}(PSS_l(X_i,Y_i) + PSS_r(X_{1-i},Y_{1-i}))}} \right )$$
 
 Step p can be adjusted accordingly to the proportion of selected (or
 excluded) candidates in the breeding scenario.
