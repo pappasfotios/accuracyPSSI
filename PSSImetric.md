@@ -10,7 +10,7 @@ testing, and application of methodologies aimed at precisely predicting
 the genetic merit of individuals concerning specific traits within
 well-defined populations. Despite my relatively recent introduction to
 this field, I was surprised to discover that there is discourse on the
-meticulous assessment of the accuracy of genetic evaluations. It is
+assessment of the accuracy of genetic evaluations. It is
 common practice for researchers in the field to evaluate and compare
 different analytical methods and information sources in terms of
 prediction accuracy using either simulated or real-world datasets. Most
